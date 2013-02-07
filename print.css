@@ -1,0 +1,15 @@
+html { background:transparent; text-align:left; }
+body { background:#fff }
+#banner, #footer, .print, .callout.orange, .breadcrumb, .controls-header, .gen-button, #lightwindow_title_bar_close_link, 
+.buscar, h1, #lightwindow, #lightwindow_overlay { display:none; border:none; margin:0; text-align:left; }
+
+#box, #banner, #container, .painel.callout { border:none; margin:0; }
+
+.callout.list-wrapper, .search-results, .lista-de-visitas .painel.callout { overflow:auto; width:1024px !important; margin:0; }
+
+/* Print Orders */
+
+.pedido.printscreen table#order-footer td, .pedido.printscreen table#order-footer th { width:30%; }
+.pedido.printscreen section#dyn-rows, .pedido.printscreen table#order-footer { width:1024px !important; }
+.pedido.printscreen table#order-footer .obs {  }
+.pedido.printscreen .prod { display:none; }
